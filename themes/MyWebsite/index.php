@@ -11,7 +11,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<!-- Important Owl stylesheet -->
-	<title>Mehul Chopda's Blog1</title>
+	<title>Mehul Chopda's Blog2</title>
 
 	<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
 	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
