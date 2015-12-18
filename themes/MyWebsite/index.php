@@ -89,7 +89,7 @@
 							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 						</ol>
 
-						<!-- Wrapper for slides -->
+						<!-- Wrapper for slides1 -->
 						<div class="carousel-inner" role="listbox">
 							<!-- First slide -->
 							<div class="item active deepskyblue">
