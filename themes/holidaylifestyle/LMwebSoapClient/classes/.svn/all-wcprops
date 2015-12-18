@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/LMwebSoapDemo/!svn/ver/7/trunk/classes
+END
+Book.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/LMwebSoapDemo/!svn/ver/7/trunk/classes/Book.php
+END
+Hotel.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/classes/Hotel.php
+END
+Date.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/classes/Date.php
+END
+Flight.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/classes/Flight.php
+END
+Payment.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LMwebSoapDemo/!svn/ver/5/trunk/classes/Payment.php
+END
+BookingConf.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LMwebSoapDemo/!svn/ver/7/trunk/classes/BookingConf.php
+END
+Flights.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/classes/Flights.php
+END
+Destination.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/classes/Destination.php
+END
+Offer.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/classes/Offer.php
+END
+Mw.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/classes/Mw.php
+END
+Region.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/classes/Region.php
+END
+MixerRequestObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/LMwebSoapDemo/!svn/ver/5/trunk/classes/MixerRequestObject.php
+END
+City.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/classes/City.php
+END

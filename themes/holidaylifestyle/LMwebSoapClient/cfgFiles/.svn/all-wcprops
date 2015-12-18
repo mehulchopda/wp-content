@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/LMwebSoapDemo/!svn/ver/5/trunk/cfgFiles
+END
+destination.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/destination.cfg
+END
+region.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/region.cfg
+END
+children.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/children.cfg
+END
+persons.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/persons.cfg
+END
+gt.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/LMwebSoapDemo/!svn/ver/5/trunk/cfgFiles/gt.cfg
+END
+timeRange.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/timeRange.cfg
+END
+catering.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/catering.cfg
+END
+departureAirport.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/departureAirport.cfg
+END
+room.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/room.cfg
+END
+category.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/category.cfg
+END
+journeyType.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/journeyType.cfg
+END
+hotelChain.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/LMwebSoapDemo/!svn/ver/2/trunk/cfgFiles/hotelChain.cfg
+END

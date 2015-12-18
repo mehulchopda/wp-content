@@ -1,0 +1,61 @@
+<?php
+
+include_once '../LMwebSoapClient.php';
+include_once '../classes/MixerRequestObject.php';
+include_once '../Template.php';
+
+$sc = new LMwebSoapClient(LMwebSoapClient::$wsdl);
+
+$mro = new MixerRequestObject('88', 'HGD7777', '');
+if ($_GET['timeRange'] != "") {
+    $timeRange = split(' ', $_GET['timeRange']);
+    unset($_GET['timeRange']);
+    $_GET['minTimeRange'] = $timeRange[0];
+    $_GET['maxTimeRange'] = $timeRange[1];
+}
+
+$_GET['destination'] = array($_GET['region'], $_GET['destination']);
+
+$mro->setParamsByArray($_GET);
+
+try {
+    if ($mro->getJourneyType() == 'FLIGHT') {
+//        echo 'searchFlights<br>';
+        $result = $sc->searchFlights($mro);
+        if ($result != null) {
+            Template::searchFlightsTemplate($result, $mro);
+        }
+    } else {
+        $dst = $mro->getDestination();
+        if (!($dst[0] == null)) {
+//                echo 'searchOffers<br>';
+            $result = $sc->searchOffers($mro);
+            if ($result != null) {
+                Template::searchOfferTemplate($result, $mro);
+            }
+        } else {
+//                echo 'searchDestination<br>';
+            $result = $sc->searchDestination($mro);
+            if ($result != null) {
+                Template::searchDestinationTemplate($result, $mro);
+            }
+        }
+    }
+} catch (Exception $exc) {
+    echo '<pre>';
+    print_r($exc->getTraceAsString());
+    echo '</pre>';
+
+    echo '<pre>';
+    print_r($_GET);
+    echo '</pre>';
+
+    echo '<pre>';
+    print_r($mro);
+    echo '</pre>';
+
+    echo '<pre>';
+    print_r($mro->getParamsAsArray());
+    echo '</pre>';
+}
+?>

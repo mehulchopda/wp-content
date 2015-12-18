@@ -1,0 +1,41 @@
+#focus, #focus2, #focus3 {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+.threekid, .fourkid {
+    display: none;
+}
+.details-tab-content {
+    position: relative;
+    margin-top: 45px;
+}
+.sonstiges-head {
+    font-size: 24px;
+    font-weight: normal;
+    margin: -8% 0 0 0;
+    text-transform: uppercase;
+    float: left;
+}
+.sonstiges-spacer {
+    margin-top: 5%;
+}
+#noEntryFoundMsg {
+    background-color: #F1827E;
+    color: #455a64;
+    padding: 15px;
+}
+.stars-rating-standalone {
+    float: none !important;
+    padding: 0 !important;
+}
+.icons-hover-standalone {
+    padding: 0 !important;
+    float: right !important;
+}
+.slide_nav_details {
+    margin-top: 50px;
+}
+.detailsSpacer {
+    margin-top: -80px;
+}

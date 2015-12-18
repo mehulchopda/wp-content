@@ -1,0 +1,23 @@
+<?php
+
+include_once '../LMwebSoapClient.php';
+include_once '../classes/MixerRequestObject.php';
+include_once '../Template.php';
+
+$sc = new LMwebSoapClient(LMwebSoapClient::$wsdl);
+
+$mro = new MixerRequestObject('88', 'HGD7777', '');
+if (isset($_GET['mro'])) {
+    $mro = unserialize(base64_decode($_GET['mro']));
+}
+$mro->setParamsByArray($_POST);
+
+try {
+    $result = $sc->searchDateList($mro);
+    if ($result != null) {
+        Template::searchDateListTemplate($result, $mro);
+    }
+} catch (SoapFault $sf) {
+    print_r($sf->getMessage());
+}
+?>
