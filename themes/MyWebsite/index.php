@@ -1,144 +1,6 @@
 <?php
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<!-- Important Owl stylesheet -->
-	<title>Mehul Chopda's Blog2</title>
-
-	<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Custom CSS -->
-	<link href="<?php bloginfo('template_url'); ?>/css/freelancer.css" rel="stylesheet">
-	<link href="<?php bloginfo('template_url'); ?>/css/owl.carousel.css" rel="stylesheet" type="text/css">
-	<link href="<?php bloginfo('template_url'); ?>/css/owl.theme.css" rel="stylesheet" type="text/css">
-	<!-- Custom Fonts -->
-	<link href="<?php bloginfo('template_url'); ?>/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
-</head>
+get_header();?>
 <body id="page-top" class="index">
-
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-		<div class="logo">
-		</div>
-		<!--<div class="logo"><img  src="<?php /*bloginfo('template_url'); */?>/img/logo.jpg"></div>-->
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-
-			<a class="navbar-brand" href="#page-top">Mehul Chopda</a>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="hidden">
-					<a href="#page-top"></a>
-				</li>
-				<li class="page-scroll">
-					<a href="#home">Home</a>
-				</li>
-				<li class="page-scroll">
-					<a href="#Blog">Blog</a>
-				</li>
-				<li class="page-scroll">
-					<a href="#about">About me</a>
-				</li>
-				<li class="page-scroll">
-					<a href="#contact">Contact me</a>
-				</li>
-			</ul>
-		</div>
-		<!-- /.navbar-collapses -->
-	</div>
-	<!-- /.container-fluid -->
-</nav>
-<!-- Header -->
-	<div class="container1" >
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<!--<img class="mainimage" class="img-responsive" src="<?php /*bloginfo('template_url'); */?>/img/portfolio/2.gif">-->
-			<div id="carousel-example-generic" class="carousel slide">
-						<!-- Indicators -->
-						<ol class="carousel-indicators">
-							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-						</ol>
-
-						<!-- Wrapper for slides1 -->
-						<div class="carousel-inner" role="listbox">
-							<!-- First slide -->
-							<div class="item active deepskyblue">
-								<div class="carousel-caption">
-									<h3 data-animation="animated bounceInLeft">
-										This is the caption for slide 1
-									</h3>
-
-									<button class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Button</button>
-								</div>
-							</div> <!-- /.item -->
-
-							<!-- Second slide -->
-							<div class="item skyblue">
-								<div class="carousel-caption">
-									<h3 data-animation="animated bounceInUp">
-										This is the caption for slide 2
-									</h3>
-									<button class="btn btn-primary btn-lg" data-animation="animated zoomInRight">Button</button>
-								</div>
-							</div><!-- /.item -->
-
-							<!-- Third slide -->
-							<div class="item darkerskyblue">
-								<div class="carousel-caption">
-									<h3 data-animation="animated flipInX">
-										This is the caption for slide 3
-									</h3>
-									<button class="btn btn-primary btn-lg" data-animation="animated lightSpeedIn">Button</button>
-								</div>
-
-						</div><!-- /.carousel-inner -->
-
-						<!-- Controls -->
-						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div><!-- /.carousel -->
-
-				</div><!-- /.container -->
-			</div>
-			</div>
-		</div>
-
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
@@ -276,16 +138,13 @@
 							<a href="https://www.facebook.com/mehul.chopda" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
 						</li>
 						<li>
-							<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+							<a href="https://plus.google.com/u/0/" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
 						</li>
 						<li>
-							<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+							<a href="https://www.linkedin.com/profile/view?id=AAIAAAwIzxEBdgotATfVPXh6sEQ0utQRppDRH4g&trk=nav_responsive_tab_profile_pic" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
 						</li>
 						<li>
-							<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-						</li>
-						<li>
-							<a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+							<a href="https://www.xing.com/profile/Mehul_Chopada?sc_o=mxb_p" class="btn-social btn-outline"><i class="fa fa-fw fa-xing"></i></a>
 						</li>
 					</ul>
 				</div>
@@ -330,7 +189,6 @@
 <!-- Custom Theme JavaScript -->
 <script src="<?php bloginfo('template_url'); ?>/js/freelancer.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
-
 </body>
 </html>
 

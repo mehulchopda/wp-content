@@ -1,6 +1,7 @@
 /**
  * Created by Mehul on 12/18/2015.
  */
+
 $(document).ready(function() {
     var owl = $(".owl-carousel");
     owl.owlCarousel({
