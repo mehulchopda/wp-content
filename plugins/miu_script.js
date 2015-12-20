@@ -2,7 +2,7 @@ jQuery(document).ready(function(){
     
     jQuery('.miu-remove').live( "click", function(e) {
         e.preventDefault();
-        var id = jQuery(this).attr("id")
+        var id = jQuery(this).attr("id");
         var btn = id.split("-");
         var img_id = btn[1];
         jQuery("#row-"+img_id ).remove();
