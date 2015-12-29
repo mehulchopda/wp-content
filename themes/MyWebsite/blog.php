@@ -18,8 +18,6 @@ get_header();
 
             <div class="panel">
                 <div class="panel-body">
-
-
                     <!--/stories-->
                     <?php
                     // we add this, to show all posts in our
@@ -45,8 +43,6 @@ get_header();
                                             Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
                                             dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
                                             Aliquam in felis sit amet augue.<br><?php the_content()?></p>
-                                        <p class="lead"><button class="btn btn-default">Read More</button></p>
-                                        <ul class="list-inline"><li><a href="#"><?php the_date()?></a></li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 4 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 34 Shares</a></li></ul>
                                     </div>
                                     <div class="col-xs-3"></div>
                                 </div>
@@ -56,15 +52,10 @@ get_header();
 
                         <hr>
                     <?php endforeach; ?>
-
-
-
-
-
                     <!--/stories-->
 
 
-                    <a href="/" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a>
+<!--                    <a href="/" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a>-->
 
 
                 </div>

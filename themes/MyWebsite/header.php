@@ -5,6 +5,9 @@
  * Date: 14/12/15
  * Time: 21:02
  */
+$defaults = array(
+    'theme_location' => 'primary',
+);
 ?>
 
 <!DOCTYPE html>
@@ -67,14 +70,8 @@
                     <a href="<?php echo home_url(); ?>">Home</a>
                 </li>
                 <li class="page-scroll">
-                    <?php
-                    $defaults = array(
-                        'theme_location' => 'primary',
-                    );
-                  echo '<a href='.wp_list_pages('title_li=').'></a>';
-                    ?>
+                <?php echo wp_list_pages('title_li');?>
                 </li>
-
                 <li class="page-scroll">
                     <a href="#about">About me</a>
                 </li>
