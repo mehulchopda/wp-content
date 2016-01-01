@@ -85,6 +85,7 @@ $defaults = array(
     <!-- /.container-fluid -->
 </nav>
 
+
 <div class="container1" >
     <div class="row">
         <div class="col-lg-12 text-center">
@@ -128,6 +129,7 @@ $defaults = array(
                             </h3>
                             <button class="btn btn-primary btn-lg" data-animation="animated lightSpeedIn">Button</button>
                         </div>
+
 
 
 
