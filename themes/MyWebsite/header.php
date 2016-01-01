@@ -92,7 +92,7 @@
     <div class="row">
         <div class="col-lg-12 text-center">
             <!--<img class="mainimage" class="img-responsive" src="<?php /*bloginfo('template_url'); */?>/img/portfolio/2.gif">-->
-            <div id="carousel-example-generic" class="carousel slide">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -169,6 +169,8 @@
 <!-- Custom Theme JavaScript -->
 <script src="<?php bloginfo('template_url'); ?>/js/freelancer.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
+
+
 </body>
 
 

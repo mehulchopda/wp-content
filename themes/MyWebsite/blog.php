@@ -9,17 +9,11 @@
 get_header();
 ?>
 <body>
-
-
 <div class="container">
     <div class="row">
-
         <div class="col-md-12">
-
             <div class="panel">
                 <div class="panel-body">
-
-
                     <!--/stories-->
                     <?php
                     // we add this, to show all posts in our
@@ -56,15 +50,10 @@ get_header();
 
                         <hr>
                     <?php endforeach; ?>
-
-
-
-
-
                     <!--/stories-->
 
 
-                    <a href="/" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a>
+                    <a href="#Home" class="btn btn-primary pull-right btnNext">More <i class="glyphicon glyphicon-chevron-right"></i></a>
 
 
                 </div>
