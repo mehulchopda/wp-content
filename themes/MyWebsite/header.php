@@ -85,67 +85,7 @@ $defaults = array(
     <!-- /.container-fluid -->
 </nav>
 
-<div class="container1" >
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <!--<img class="mainimage" class="img-responsive" src="<?php /*bloginfo('template_url'); */?>/img/portfolio/2.gif">-->
-            <div id="carousel-example-generic" class="carousel slide">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
 
-                <!-- Wrapper for slides1 -->
-                <div class="carousel-inner" role="listbox">
-                    <!-- First slide -->
-                    <div class="item active deepskyblue">
-                        <div class="carousel-caption">
-                            <h3 data-animation="animated bounceInLeft">
-                                This is the caption for slide 1
-                            </h3>
-
-                            <button class="btn btn-primary btn-lg" data-animation="animated zoomInUp">Button</button>
-                        </div>
-                    </div> <!-- /.item -->
-
-                    <!-- Second slide -->
-                    <div class="item skyblue">
-                        <div class="carousel-caption">
-                            <h3 data-animation="animated bounceInUp">
-                                This is the caption for slide 2
-                            </h3>
-                            <button class="btn btn-primary btn-lg" data-animation="animated zoomInRight">Button</button>
-                        </div>
-                    </div><!-- /.item -->
-
-                    <!-- Third slide -->
-                    <div class="item darkerskyblue">
-                        <div class="carousel-caption">
-                            <h3 data-animation="animated flipInX">
-                                This is the caption for slide 3
-                            </h3>
-                            <button class="btn btn-primary btn-lg" data-animation="animated lightSpeedIn">Button</button>
-                        </div>
-
-                    </div><!-- /.carousel-inner -->
-
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div><!-- /.carousel -->
-
-            </div><!-- /.container -->
-        </div>
-    </div>
-</div>
 
 
 <!-- jQuery -->
