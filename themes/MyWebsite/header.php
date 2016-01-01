@@ -5,6 +5,9 @@
  * Date: 14/12/15
  * Time: 21:02
  */
+$defaults = array(
+    'theme_location' => 'primary',
+);
 ?>
 
 <!DOCTYPE html>
@@ -67,14 +70,8 @@
                     <a href="<?php echo home_url(); ?>">Home</a>
                 </li>
                 <li class="page-scroll">
-                    <?php
-                    $defaults = array(
-                        'theme_location' => 'primary',
-                    );
-                  echo '<a href='.wp_list_pages('title_li=').'></a>';
-                    ?>
+                <?php echo wp_list_pages('title_li');?>
                 </li>
-
                 <li class="page-scroll">
                     <a href="#about">About me</a>
                 </li>
@@ -132,23 +129,7 @@
                             <button class="btn btn-primary btn-lg" data-animation="animated lightSpeedIn">Button</button>
                         </div>
 
-                    </div><!-- /.carousel-inner -->
 
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div><!-- /.carousel -->
-
-            </div><!-- /.container -->
-        </div>
-    </div>
-</div>
 
 
 <!-- jQuery -->
